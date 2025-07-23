@@ -1,0 +1,142 @@
+.top-container{
+    background-color: #fffbde;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+    color: #91C8E4;
+    font-family:cursive;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+h2{
+    text-align: center;
+    color: #4682A9;
+    padding-top: 25px;
+    font-family: monospace;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+.cloud1{
+    padding-left: 70%;
+}
+.cloud2{
+    padding-left: 20%;
+}
+.cloudy{
+    display: inline-block;
+    padding-left: 10%;
+    padding-top: 10px;
+}
+.pattern{
+    display: inline-block;
+    padding-left: 38%;
+
+}
+.middle-conatiner{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.photo{
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 5px solid #91C8E4;
+}
+.intro{
+    font-size: large;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.skills{
+    font-size: 3rem;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.parent{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    width: 50%;
+    text-align: justify;
+    column-gap: 20px;
+}
+.code{
+text-align: center;
+}
+.linux{
+text-align: center;
+}
+.development{
+    font-weight: 600;
+
+}
+.fundamentals{
+    font-weight: 600;
+}
+h3{
+    color:#749BC2;
+    font-weight: 900;
+}
+.contact-me >h2{
+font-size: 3rem;
+margin: 100px auto 20px auto;
+}
+.contact-me>h3{
+    margin: 30px auto 30px auto;
+    font-size: 1.5rem;
+}
+.btn{
+    background-color: #4682A9;
+    color: #fffbde;
+}
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    h1{
+        font-size: 2.5rem;   
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    .cloudy{
+        height: 200px;
+    }
+    .top-container{
+        height: 5%;
+    }
+    .parent{
+        margin-left: 30px;
+    }
+    .pattern{
+        display: none;
+    }
+
+}
+@media screen and (min-width: 500px) and (max-width: 700px){
+    .cloudy{
+        padding-top: 0px;
+        padding-left: 0;
+    }
+    h1{
+        font-size:3rem ;
+
+    }
+    h2{
+        font-size: 2rem;
+    }
+    
+}
+@media screen and (max-width: 1050px){
+    .pattern{
+display: none;
+    }
+    
+}
